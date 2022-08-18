@@ -1,4 +1,5 @@
-export function handleLogin() {
-   console.log("first")
-  }
+export function handleLogin(dispatch) {
+   dispatch({ type: "LOGIN_USER" });
+   }
+  
   
