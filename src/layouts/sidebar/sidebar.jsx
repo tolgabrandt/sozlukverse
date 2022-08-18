@@ -9,10 +9,10 @@ export const Sidebar = () => {
         <ul className="w-[240px]">
           <li>
             <NavLink
-              to="#"
+              to="/entry/1"
               className="break-word grid grid-cols-[1fr_minmax(min-content,_40px)] items-center gap-1  hover:bg-gray-50 hover:rounded-md p-2"
             >
-              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<span className="text-gray-400 text-center">14</span>
+              create react app<span className="text-gray-400 text-center">14</span>
             </NavLink>
           </li>
 

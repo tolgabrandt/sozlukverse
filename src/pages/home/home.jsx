@@ -7,7 +7,7 @@ export function Home() {
   return (
     <>
       <Header />
-      <main className="flex container-base">
+      <main className="flex container-base gap-8">
         <Sidebar />
 
         <section className="z-0 flex-1">

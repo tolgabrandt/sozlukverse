@@ -1,3 +1,3 @@
 export const handleRegister = () => {
- console.log("kayıt")
+ console.log("register")
 }
