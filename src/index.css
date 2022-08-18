@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .break-word {
+    word-break: break-word;
+  }
+
+  .container-base {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .form {
+    @apply px-4 h-8 rounded-md;
+  }
+
+  .form-sm {
+    @apply px-2 h-8 rounded-md;
+  }
+
+  .form.form-primary {
+    @apply bg-green-500 text-white;
+  }
+
+  .form-secondary {
+    @apply bg-gray-50 border border-gray-100;
+  }
+
+  .form-outline-primary {
+    @apply bg-white border border-green-500 text-green-500;
+  }
+}
