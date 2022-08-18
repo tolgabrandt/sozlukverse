@@ -1,4 +1,3 @@
-import { Button } from "../../components";
 import { PersonBoundingBox, ChatRight, ThreeDots } from "react-bootstrap-icons";
 import { Menu } from "@headlessui/react";
 import { handleLogout } from "../../helpers/auth/handle-logout";
@@ -15,8 +14,12 @@ export function HeaderUser() {
 
   return (
     <>
-      <Button status="form-sm form-secondary" label={<PersonBoundingBox />} />
-      <Button status="form-sm form-secondary" label={<ChatRight />} />
+      <NavLink to="profile" className="form-sm form-secondary flex items-center">
+        <PersonBoundingBox />
+      </NavLink>
+      <NavLink to="messages" className="form-sm form-secondary flex items-center">
+        <ChatRight />
+      </NavLink>
 
       <div className="relative">
         <Menu>
